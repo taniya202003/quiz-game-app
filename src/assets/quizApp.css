@@ -1,0 +1,54 @@
+.CandidatePerformance-btn {
+  padding: 10px;
+  border: 1px solid rgb(0, 255, 242);
+  background-color: rgb(145, 255, 2);
+}
+
+.next-prev-btn {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.prev-btn,
+.next-btn,
+.submit-btn {
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgb(97, 202, 197);
+  transition: 0.3s;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+  background-color: rgb(189, 235, 232);
+}
+
+.optionsBtn {
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+.quizCard {
+  margin: auto;
+  border: 1px solid;
+  border-radius: 6px;
+  width: 30%;
+  padding: 15px;
+}
+
+.quizOptions {
+  display: grid;
+  justify-content: center;
+  gap: 10px;
+}
+
+.prevAndSubmit {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
